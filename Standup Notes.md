@@ -3,9 +3,6 @@
 ## Name: Ruoxuan Li 
 ### How are you feeling today?
 I am feeling ...
-[ ] good
-[ ] tired
-[ ] I don't know
 ### What did you work on yesterday?
 - task 1
 - task 2
