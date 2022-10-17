@@ -1,0 +1,165 @@
+/* designated for screen with max-width 2000px */
+/* friendly to printer *?
+@media screen, print and (max-width: 2000px) {
+/* apply background color*/
+@font-face {
+    font-family: FuzzyBubbles;
+    src: url(FuzzyBubbles-Regular.ttf);
+}
+body {
+    background-color:darkseagreen;
+}
+/* units of measurement for sizing and spacing your elements */
+/* differnet selectors */
+h1, h2 {
+    color: blueviolet;
+    background-color: rgb(205, 210, 60);
+    font-family:FuzzyBubbles;
+    /* relative values */
+    margin-top:0em;
+    margin-bottom: 0em;;
+    margin-left:1vmin;
+    margin-right:1vw;
+    border: dashed 2pc blanchedalmond; 
+    /*apply position value static*/
+    position:static;
+}
+/* try different display */
+h1 {
+    display:block;
+    background-color:chocolate;
+}
+/* spacing withi html elements*/
+/* third-party fonts */
+h3 {
+    font-family:FuzzyBubbles;
+    color:seagreen;
+    background-color:rgb(233, 115, 82);
+    display:inline-block;
+    border:dashed 2px blanchedalmond;
+     /*apply position value relative*/
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+section {
+    border-top-style: groove;
+    border-top-color:#0070a3;
+    border-bottom-style:ridge;
+    border-bottom-color:darkorange;
+    border-width: 0.1cm;
+    border-radius: 10mm;
+    padding-top: 0.1pc;
+    padding-bottom: 0.1pc;
+    padding-left: 0.15in;
+    padding-right: 0.15in;
+}
+
+/* play with borders*/
+p {
+    border-style:dotted;
+    border-color:#FFFFFF;
+    /* absolute values */
+    border-width: 0.1cm;
+    border-radius: 10mm;
+    margin: 2pt 2pt 2pt 2pt;
+
+}
+/* sizing */
+form {
+    height: auto;
+    width: 20cm;
+    max-width: 120%;
+    min-width: 100%;
+}
+footer {
+    padding:1pc 1pc 2pc 2pc;
+    background-color: coral;
+    text-decoration: underline;
+    text-align:justify;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+/* test out ID selector */
+/* test out display inline-block*/
+#remainder{
+    display:inline-block;
+    color:blue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+/*psudo class */
+button:hover {
+    color:aquamarine;
+    background-color:black
+}
+a:active{
+    color:red;
+    background-color: yellowgreen;
+}
+/*layouts Flexbox*/
+/*flexboxes and flexitems*/
+.flex-container {
+    display: flex;
+    flex-flow: nowrap;
+    flex-direction:row-reverse;
+    justify-content: space-around;
+    list-style: none;
+}
+.flex-item {
+    background: tomato;
+    padding: 2px;
+    width:2px;
+    height:1px;
+    color:white;
+    font-weight:bold;
+    text-align:center;
+}
+/* https://css-tricks.com/snippets/css/complete-guide-grid/ */
+/* test grid layout */
+.grid-container {
+    display:grid;
+    grid-template-columns: 100px 100px 100px 200px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 20px;
+    background-color: lightgray;
+}
+.item-1 {
+    grid-column-start:1;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end:2;
+    background-color: beige;
+
+}
+.item-2{
+    grid-column-start:3;
+    grid-column-end:5;
+    grid-row-start:1;
+    grid-row-end:2;
+    background-color: darkorange;
+}
+.item-3{
+
+    background-color: olivedrab;
+}
+.item-4{
+    background-color: red;
+}
+.item-5{
+    background-color: green;
+}
+.item-6{
+    background-color: blueviolet;
+}
+.item-7{
+    background-color: yellow;
+}
+.item-8{
+    background-color: brown;
+}
+.item-9{
+    grid-column-start:1;
+    grid-column-end:6;
+    background-color: skyblue;
+}
+}
+   
